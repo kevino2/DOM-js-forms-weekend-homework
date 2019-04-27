@@ -1,0 +1,40 @@
+.background {
+ background-image: url("imgs/195.png");
+ /* width: 150px; */
+ background-color: yellow;
+}
+h1 {
+  font-family: 'Acme', sans-serif;
+  color: red;
+}
+h2 {
+  font-family: 'Acme', sans-serif;
+  color: red;
+}
+p {
+  font-family: 'Acme', sans-serif;
+  color: red;
+}
+form-item {
+  /* font-family: 'Acme', sans-serif;
+  color: red; */
+  width: fit-content;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+ul {
+  width: fit-content;
+  padding: 0.25em;
+  margin: 0.175em;
+  border-radius: 2px;
+  background-color: #070600;
+
+  color: #48ACF0;
+  border: 1px solid white;
+  margin: auto;
+}
+
+
+form {
+
+} */
