@@ -48,4 +48,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   form.addEventListener('submit', formSubmitHandler);
+
+  const deleteListItem = () => {
+    var id = event.target.id;
+    console.log("delete an item: " + id);
+
+    function removeName(itemid){
+        var item = document.getElementById(itemid);
+        list.removeChild(item);
+    }
+
+
+}
 })

@@ -3,6 +3,10 @@
  /* width: 150px; */
  background-color: yellow;
 }
+
+input{
+    box-sizing: border-box;
+}
 h1 {
   font-family: 'Acme', sans-serif;
   color: red;
@@ -21,20 +25,28 @@ form-item {
   width: fit-content;
   padding: 0.5em;
   margin: 0.5em;
+  border-style: double;
+  box-sizing: border-box;
 }
-ul {
-  width: fit-content;
-  padding: 0.25em;
-  margin: 0.175em;
-  border-radius: 2px;
-  background-color: #070600;
 
-  color: #48ACF0;
-  border: 1px solid white;
-  margin: auto;
+winner-list {
+  /* font-family: 'Acme', sans-serif;
+  color: red; */
+  width: fit-content;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-style: double;
+  box-sizing: border-box;
 }
+
+
 
 
 form {
-
+  width: fit-content;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-style: double;
+  box-sizing: border-box;
+  background-color: lightblue;
 } */
