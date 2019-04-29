@@ -19,15 +19,7 @@ p {
   font-family: 'Acme', sans-serif;
   color: red;
 }
-form-item {
-  /* font-family: 'Acme', sans-serif;
-  color: red; */
-  width: fit-content;
-  padding: 0.5em;
-  margin: 0.5em;
-  border-style: double;
-  box-sizing: border-box;
-}
+
 
 winner-list {
   /* font-family: 'Acme', sans-serif;
@@ -39,7 +31,13 @@ winner-list {
   box-sizing: border-box;
 }
 
-
+li {
+  width: fit-content;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-style: double;
+  box-sizing: border-box;
+  background-color: lightblue;
 
 
 form {
